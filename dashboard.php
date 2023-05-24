@@ -172,6 +172,8 @@ $interested_properties = mysqli_fetch_all($result_2, MYSQLI_ASSOC);
     <?php
     include "includes/footer.php";
     ?>
+
+    <script type="text/javascript" src="js/dashboard.js"></script>
 </body>
 
 </html>

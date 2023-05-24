@@ -89,7 +89,7 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
         foreach ($properties as $property) {
             $property_images = glob("img/properties/" . $property['id'] . "/*");
         ?>
-            <div class="property-card row">
+            <div class="property-card property-id-<?= $property['id'] ?> row">
                 <div class="image-container col-md-4">
                     <img src="<?= $property_images[0] ?>" />
                 </div>
@@ -135,15 +135,17 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
 
                             if ($is_interested) {
                             ?>
-                                <i class="fas fa-heart"></i>
+                                <i class="is-interested-image fas fa-heart" property_id="<?= $property['id'] ?>"></i>
                             <?php
                             } else {
                             ?>
-                                <i class="far fa-heart"></i>
+                                <i class="is-interested-image far fa-heart" property_id="<?= $property['id'] ?>"></i>
                             <?php
                             }
                             ?>
-                            <div class="interested-text"><?= $interested_users_count ?> interested</div>
+                            <div class="interested-text">
+                                <span class="interested-user-count"><?= $interested_users_count ?></span> interested
+                            </div>
                         </div>
                     </div>
                     <div class="detail-container">
@@ -232,6 +234,8 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
     include "includes/login_modal.php";
     include "includes/footer.php";
     ?>
+
+    <script type="text/javascript" src="js/property_list.js"></script>
 </body>
 
 </html>
