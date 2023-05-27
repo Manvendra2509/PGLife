@@ -20,3 +20,6 @@
   - sql_queries.sql
   - dummy_data.sql
 - Run the project by typing 'localhost/PGLife/index.php' in your browser
+
+# Preview
+The preview of the front-end of the website can be seen on the following link: https://manvendra2509.github.io/PGLife/
