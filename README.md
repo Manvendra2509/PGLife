@@ -15,7 +15,7 @@
 
 ## How to run the project?
 - Install XAMPP, run Apache and MySQL.
-- Clone the repo and paste the folder structure inside htdocs folder.
+- Clone the repo and paste the folder structure inside xampp/htdocs folder.
 - Run MySQL Admin and import the .sql files present in the sql folder in the following order:
   - sql_queries.sql
   - dummy_data.sql
