@@ -2,7 +2,7 @@
 # Pre-requisites
 - Windows Operating System
 - XAMPP
-- A valid MySQL database that can be created using the file given in the code.
+- A valid MySQL database that can be created using the .sql files provided in the in the sql folder.
 
 ## Technologies Used
 - HTML
