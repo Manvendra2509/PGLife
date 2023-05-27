@@ -14,8 +14,9 @@
 - React
 
 ## How to run the project?
-- Install XAMPP, run Apache and MySQL.
+- Install XAMPP: https://www.apachefriends.org/
 - Clone the repo and paste the folder structure inside xampp/htdocs folder.
+- Open XAMPP Control Panel and run Apache and MySQL.
 - Run MySQL Admin and import the .sql files present in the sql folder in the following order:
   - sql_queries.sql
   - dummy_data.sql
