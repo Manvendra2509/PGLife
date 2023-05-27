@@ -13,7 +13,7 @@
 - JavaScript
 - React
 
-# How to run the project?
+## How to run the project?
 - Install XAMPP, run Apache and MySQL.
 - Clone the repo and paste the folder structure inside htdocs folder.
 - Run MySQL Admin and import the .sql files present in the sql folder in the following order:
@@ -21,5 +21,5 @@
   - dummy_data.sql
 - Run the project by typing 'localhost/PGLife/index.php' in your browser
 
-# Preview
+## Preview
 The preview of the front-end of the website can be seen on the following link: https://manvendra2509.github.io/PGLife/
