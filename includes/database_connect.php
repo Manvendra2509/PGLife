@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("127.0.0.1", "root", "", "pglife");
+$conn = mysqli_connect($MYSQL_URL, $MYSQLUSER, $MYSQLPASSWORD, $MYSQLDATABASE);
 
 if (mysqli_connect_errno()) {
     // Throw error message based on ajax or not
