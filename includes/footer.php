@@ -14,7 +14,7 @@
                 <a href="property_list.php?city=Hyderabad">PG in Hyderabad</a>
             </div>
         </div>
-        <div class="footer-copyright">© 2020 Copyright PG Life </div>
+        <div class="footer-copyright">© 2023 Copyright Manvendra Singh </div>
     </div>
 </div>
 
