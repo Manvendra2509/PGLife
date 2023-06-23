@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect($MYSQL_URL, $MYSQLUSER, $MYSQLPASSWORD, $MYSQLDATABASE);
+$conn = mysqli_connect("mysql://root:BdYKl1bIg73riN1Bc59B@containers-us-west-202.railway.app:6470/railway", "root", "BdYKl1bIg73riN1Bc59B", "railway");
 
 if (mysqli_connect_errno()) {
     // Throw error message based on ajax or not
